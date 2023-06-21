@@ -1,0 +1,94 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: rgb(227, 159, 110); */
+  background-color: rgb(194, 128, 81);
+}
+table{
+  width : 80%;
+  border-collapse: collapse;
+  background-color: bisque;
+ 
+}
+thead>tr{
+  background-color: darkgray;
+}
+
+th{
+  padding-left: 10px;
+  text-align: left;
+  height: 50px;
+  
+}
+
+td {
+  padding-left: 10px;
+  width: 33%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #444;
+  
+}
+
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea{
+  margin-bottom: 10px;
+  background-color: bisque;
+  border-radius: 8px;
+  border: 1px solid black;
+  height: 30px;
+}
+
+textarea{
+  height: 60px;
+}
+
+.submit{
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: rgba(79, 177, 79, 0.712);
+}
+
+.cross{
+  height: 30px;
+  width: 30px;
+  background-color: rgba(248, 10, 10, 0.652);
+  margin-right: 10px;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,h2{
+  color: #444
+}
+
+h2{
+  margin-top: 50px;
+}
+
+
+
+p{
+  width: 79%;
+  background-color: bisque;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
